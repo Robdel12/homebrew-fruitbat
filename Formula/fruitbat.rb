@@ -3,6 +3,7 @@ class Fruitbat < Formula
   homepage "https://github.com/Robdel12/FruitBat"
   license "MIT"
   url "https://github.com/Robdel12/FruitBat/releases/download/v0.1.0/fruitbat-darwin-arm64.tar.gz"
+  version "0.1.0"
   sha256 "e3df0fef93c9292914b1499e466f985cdb9a38835005d0f1fb7ec4c9ecdc10d1"
 
   def install
