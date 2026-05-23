@@ -2,9 +2,9 @@ class Fruitbat < Formula
   desc "Ephemeral GitHub Actions runners for Apple Silicon Macs"
   homepage "https://github.com/Robdel12/FruitBat"
   license "MIT"
-  url "https://github.com/Robdel12/FruitBat/releases/download/v0.1.0/fruitbat-darwin-arm64.tar.gz"
-  version "0.1.0"
-  sha256 "e3df0fef93c9292914b1499e466f985cdb9a38835005d0f1fb7ec4c9ecdc10d1"
+  url "https://github.com/Robdel12/FruitBat/releases/download/v0.1.1/fruitbat-darwin-arm64.tar.gz"
+  version "0.1.1"
+  sha256 "081d6ea331afebff2a37a12696106b6b74f7e86d517c028be6523ceff3212109"
 
   def install
     odie "FruitBat currently ships macOS arm64 binaries only" unless OS.mac? && Hardware::CPU.arm?
